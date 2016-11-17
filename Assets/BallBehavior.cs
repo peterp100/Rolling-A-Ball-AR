@@ -66,17 +66,18 @@ public class BallBehavior : MonoBehaviour {
 			other.gameObject.SetActive (false);
 			count = count + 1;
 			Debug.Log (count.ToString ());
-			//SetCountText ();
+			SetCountText ();
 		}
 
 	}
 
 	void SetCountText ()
 	{
-		//countText.text = "Count: " + count.ToString (); 
-		//if (count >= 12) {
-		//	winText.text = "You Win !";
-		//}
+		countText.text = "Count: " + count.ToString (); 
+		if (count >= 9 ) {
+			countText.text = "";
+			winText.text = "You Win !";
+		}
 	}
 
 	}

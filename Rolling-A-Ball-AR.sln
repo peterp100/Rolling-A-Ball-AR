@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{6A52F9E8-7C7D-3314-EE8C-9DE116F59FFD}") = "Rolling-A-Ball-AR", "Assembly-CSharp.csproj", "{D9DD05A6-10D4-1BB9-A83C-E3BB087BD038}"
+EndProject
+Project("{6A52F9E8-7C7D-3314-EE8C-9DE116F59FFD}") = "Rolling-A-Ball-AR", "Assembly-CSharp-Editor.csproj", "{35FEC5E2-3F62-7793-1464-720B04BA4D89}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9DD05A6-10D4-1BB9-A83C-E3BB087BD038}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9DD05A6-10D4-1BB9-A83C-E3BB087BD038}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9DD05A6-10D4-1BB9-A83C-E3BB087BD038}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9DD05A6-10D4-1BB9-A83C-E3BB087BD038}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35FEC5E2-3F62-7793-1464-720B04BA4D89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35FEC5E2-3F62-7793-1464-720B04BA4D89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35FEC5E2-3F62-7793-1464-720B04BA4D89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35FEC5E2-3F62-7793-1464-720B04BA4D89}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
